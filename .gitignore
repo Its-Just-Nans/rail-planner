@@ -22,4 +22,4 @@ dist-ssr
 *.sln
 *.sw?
 
-src/assets/json/*
+src/assets/json/*.json
