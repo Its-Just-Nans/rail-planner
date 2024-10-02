@@ -37,7 +37,7 @@ jobs:
               with:
                   node-version: "latest"
             - name: Download data
-              run: python get_data.py
+              run: python get_data.py download
             - name: npm install
               run: npm ci --force
             - name: building
